@@ -1,0 +1,183 @@
+
+
+.skill{
+    color:#fff;
+    background: #111;
+    
+}
+.skill .title::before{
+    background: #fff;
+}
+.skill .title::after{
+    background: #111;
+    content: "What Do I Know ?";
+}
+.skill .skill-content .card{
+    position: relative;
+    width: calc(50% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 30px 25px;
+    margin: 20px 10px;
+    cursor: pointer;
+     
+    transition: all 0.3s ease;
+}
+
+.skill .skill-content .card:hover{
+    transform: scale(1.05);
+    background: #fff;
+}
+.skill .skill-content .card .box{
+    transition: all 0.3s ease;
+}
+
+.skill .skill-content .card .bars{
+    
+    
+    display: none;
+
+    color: black;
+    transition: all 0.5s ease;
+    
+}
+
+.skill .skill-content .card:hover .box{
+    transform: scale(0);
+    display:none;
+    transition: all 0.5s ease;
+}
+
+.skill .skill-content .card .bars .tool-title{
+    margin: 0;
+    padding:0;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.skill .skill-content .card:hover .bars{
+
+    display: block;
+    left: 0;
+    transition: all 0.5s ease;
+}
+
+.skill .skill-content .card .bars .info{
+    display: flex;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 18px;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill .skill-content span{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.skill .skill-content .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+
+.skill .skill-content .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: var(--color);
+}
+.skill-content .python::before{
+    width: 90%;
+}
+
+.skill-content .tf::before{
+    width: 85%;
+}
+
+.skill-content .keras::before{
+    width: 82%;
+}
+
+.skill-content .pandas::before{
+    width: 87%;
+}
+
+.skill-content .matplotlib::before{
+    width: 75%;
+}
+
+.skill-content .neat::before{
+    width: 75%;
+}
+.skill-content .nlp::before{
+    width: 65%;
+}
+.skill-content .skl::before{
+    width: 72%;
+}
+
+.skill-content .django::before{
+    width: 85%;
+}
+
+.skill-content .react::before{
+    width: 80%;
+}
+
+.skill-content .sql::before{
+    width: 70%;
+}
+
+.skill-content .js::before{
+    width: 85%;
+}
+
+.skill-content .css::before{
+    width: 80%;
+}
+
+
+.skill-content .blender::before{
+    width: 90%;
+}
+
+.skill-content .ps::before{
+    width: 80%;
+}
+
+.skill-content .resolve::before{
+    width: 55%;
+}
+
+.skill-content .lightroom::before{
+    width: 75%;
+}
+
+.skill-content .afe::before{
+    width: 70%;
+}
+
+
+
+
+.skill .skill-content .card svg{
+    font-size: 50px;
+    color: var(--color);
+    transition: color 0.3s ease;
+}
+.skill .skill-content .card:hover i{
+    color: #fff;
+}
+.skill .skill-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
