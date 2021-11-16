@@ -22,7 +22,7 @@ const AboutSection = () => {
                         </ScrollAnimation>
                     </div>
                  
-                    
+    
                     <div className='column right'>
                     <ScrollAnimation animateIn='bounceInRight' >
                         <div className='text'>
